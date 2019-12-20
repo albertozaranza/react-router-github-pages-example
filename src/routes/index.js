@@ -10,7 +10,7 @@ import Topics from "../components/Topics";
 
 export default function Routes() {
   return (
-    <BrowserRouter basename={window.location.pathname || ""}>
+    <BrowserRouter basename="/react-router-github-pages-example">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
